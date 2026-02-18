@@ -1,5 +1,7 @@
 body{
     background: #ffffff;
+    margin: 0;
+    padding: 0;
 }
 
 .card{
@@ -8,6 +10,13 @@ body{
     transition: all 0.3s ease-in-out;
 }
 
-.card:hover{
-    transform: scale(1.05);
+.hero-card{
+    border-radius: 0;
+    width: 100%;
+    margin: 0;
+}
+
+.hero-card .card-img{
+    width: 100%;
+    object-fit: cover;
 }
